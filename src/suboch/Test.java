@@ -2,6 +2,7 @@ package suboch;
 
 public class Test {
     public static void main(String[] args) {
+        System.out.println("hkgvjgcjgv");
         Fridge fridge1 = new Fridge("Atlant");
         Lamp lamp1 = new Lamp(100);
         MicrowaveOven MO = new MicrowaveOven("LG");
