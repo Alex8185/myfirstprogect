@@ -11,7 +11,7 @@ public class Test {
         Stand Table = new Table();
         Skinali skinali = new Skinali();
         Flying cup1 = new Cup();
-        System.out.println();
+        System.out.println("Изменение в develop");
 
 
         Table.standing();
