@@ -11,6 +11,7 @@ public class Test {
         Stand Table = new Table();
         Skinali skinali = new Skinali();
         Flying cup1 = new Cup();
+        System.out.println();
 
 
         Table.standing();
