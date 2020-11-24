@@ -11,7 +11,7 @@ public class Test {
         Info TVset = new TVset("Horizont");
         Stand Table = new Table();
         Skinali skinali = new Skinali();
-        Flying cup1 = new Cup();
+        Flyable cup1 = new Cup();
         System.out.println("Изменение в develop");
 
 

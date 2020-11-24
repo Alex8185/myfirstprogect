@@ -1,6 +1,6 @@
 package suboch;
 
-public interface Flying {
+public interface Flyable {
 
     void flying();
 }
