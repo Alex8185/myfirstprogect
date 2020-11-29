@@ -1,8 +1,10 @@
-package suboch;
+package suboch.furniture;
+
+import suboch.abstract_classes.Stand;
 
 public class Chair extends Stand {
 
-    void standing(){
+    public void standing(){
         System.out.println("Я стул, я стою");
     }
 }

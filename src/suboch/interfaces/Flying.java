@@ -1,4 +1,4 @@
-package suboch;
+package suboch.interfaces;
 
 public interface Flying {
 

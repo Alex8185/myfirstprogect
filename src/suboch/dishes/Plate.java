@@ -1,4 +1,7 @@
-package suboch;
+package suboch.dishes;
+
+import suboch.abstract_classes.Fly;
+import suboch.interfaces.Flying;
 
 public class Plate extends Fly implements Flying {
 

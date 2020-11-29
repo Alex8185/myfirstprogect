@@ -1,5 +1,16 @@
 package suboch;
 
+import suboch.abstract_classes.Stand;
+import suboch.dishes.Cup;
+import suboch.furniture.Skinali;
+import suboch.furniture.Table;
+import suboch.interfaces.Flying;
+import suboch.interfaces.Info;
+import suboch.technics.Fridge;
+import suboch.technics.Lamp;
+import suboch.technics.MicrowaveOven;
+import suboch.technics.TVset;
+
 public class Test {
     public static void main(String[] args) {
         System.out.println("hkgvjgcjgv");

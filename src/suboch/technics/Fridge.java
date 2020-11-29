@@ -1,4 +1,6 @@
-package suboch;
+package suboch.technics;
+
+import suboch.interfaces.Info;
 
 public class Fridge implements Info {
     public String name;
