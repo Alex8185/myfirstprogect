@@ -1,6 +1,6 @@
 package suboch;
 
-public class Table extends Stand {
+public class Table extends StandingFurniture {
 
     @Override
     void standing() {

@@ -9,7 +9,7 @@ public class Test {
         Info fridge2 = new Fridge("Sony");
         Info lamp2 = new Lamp(200);
         Info TVset = new TVset("Horizont");
-        Stand Table = new Table();
+        StandingFurniture Table = new Table();
         Skinali skinali = new Skinali();
         Flying cup1 = new Cup();
         System.out.println("Изменение в develop");
