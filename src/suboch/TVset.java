@@ -15,8 +15,8 @@ public class TVset implements Info {
     }
 
     @Override
-    public void name() {
-        System.out.println("Name is " + this.name);
+    public void speakTheName() {
+        System.out.println("Называю свое имя при прикосновении");
+    }
 
     }
-}

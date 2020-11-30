@@ -18,7 +18,8 @@ public class Lamp implements Info {
     }
 
     @Override
-    public void name() {
-        System.out.println("Я лампа, я свечу");
+    public void speakTheName() {
+        System.out.println("Называю свое имя при прикосновении");
     }
+
 }

@@ -7,14 +7,16 @@ public class Fridge implements Info {
         this.name = name;
     }
 
-    public void name() {
-        System.out.println("I am fridge, i give cold");
-
-    }
 
     @Override
     public void showInfo() {
         System.out.println("Name is " + this.name);
 
     }
+
+    @Override
+    public void speakTheName() {
+        System.out.println("Называю свое имя при прикосновении");
+    }
+
 }
