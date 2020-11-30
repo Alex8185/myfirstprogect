@@ -3,7 +3,7 @@ package suboch;
 public class Table extends StandingFurniture {
 
     @Override
-    void standing() {
+    void stand() {
         System.out.println("Я стол, я стою");
 
     }

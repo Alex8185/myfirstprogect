@@ -15,7 +15,7 @@ public class Test {
         System.out.println("Изменение в develop");
 
 
-        Table.standing();
+        Table.stand();
         cup1.flying();
         lamp1.watt();
         fridge1.showInfo();
