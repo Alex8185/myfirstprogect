@@ -1,7 +1,7 @@
 package suboch;
 
 public class Pasta {
-    public static void nameFood() { // етод "назвать еду" - глагол
+    public static void nameFood() {
         System.out.println("Спагетти");
 
     }

@@ -1,7 +1,7 @@
 package suboch;
 
 public class Cake {
-    public static void nameFood() { //метод "назвать еду" - глагол
+    public static void nameFood() {
         System.out.println("Яблочный пирог");
     }
 
