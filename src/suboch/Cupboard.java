@@ -1,8 +1,8 @@
 package suboch;
 
-public class Cupboard extends Stand {
+public class Cupboard extends StandingFurniture {
 
-    void standing() {
+    void stand() {
         System.out.println("Я шкаф, я стою");
     }
 }

@@ -1,8 +1,8 @@
 package suboch;
 
-public class Mixer extends Stand {
+public class Mixer extends StandingFurniture {
 
-    void standing() {
+    void stand() {
         System.out.println("Я смеситель, я смешиваю");
     }
 }

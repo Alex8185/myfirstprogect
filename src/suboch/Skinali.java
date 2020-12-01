@@ -1,7 +1,7 @@
 package suboch;
 
-public class Skinali extends Stand {
-    void standing() {
+public class Skinali extends StandingFurniture {
+    void stand() {
 
     }
 }
