@@ -1,8 +1,6 @@
 package suboch.furniture;
 
-import suboch.abstract_classes.Stand;
-
-public class Mixer extends Stand {
+public class Mixer extends StandingObjects {
 
     public void standing() {
         System.out.println("Я смеситель, я смешиваю");

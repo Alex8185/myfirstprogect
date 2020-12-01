@@ -1,8 +1,6 @@
 package suboch.furniture;
 
-import suboch.abstract_classes.Stand;
-
-public class Skinali extends Stand {
+public class Skinali extends StandingObjects {
     public void standing() {
 
     }

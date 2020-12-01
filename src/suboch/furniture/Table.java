@@ -1,8 +1,6 @@
 package suboch.furniture;
 
-import suboch.abstract_classes.Stand;
-
-public class Table extends Stand {
+public class Table extends StandingObjects {
 
     @Override
     public void standing() {

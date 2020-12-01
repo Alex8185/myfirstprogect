@@ -1,4 +1,4 @@
-package suboch.abstract_classes;
+package suboch.dishes;
 
 import suboch.interfaces.Flying;
 
