@@ -1,4 +1,4 @@
-package suboch;
+package by.suboch;
 
 public class Test {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Test {
         Info TVset = new TVset("Horizont");
         Stand Table = new Table();
         Skinali skinali = new Skinali();
-        Flying cup1 = new Cup();
+        FlyingObjects cup1 = new Cup();
         System.out.println("Изменение в develop");
 
 

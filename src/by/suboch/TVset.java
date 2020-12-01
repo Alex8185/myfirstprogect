@@ -1,4 +1,4 @@
-package suboch;
+package by.suboch;
 
 public class TVset implements Info {
     public String name;

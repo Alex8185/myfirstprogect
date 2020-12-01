@@ -1,4 +1,4 @@
-package suboch;
+package by.suboch;
 
 public class MicrowaveOven implements Info {
     public String name;
