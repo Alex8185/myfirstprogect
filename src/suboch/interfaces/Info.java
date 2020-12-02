@@ -1,6 +1,7 @@
 package suboch.interfaces;
 
 public interface Info {
-    void showInfo();
+    abstract void showInfo();
+
     void name();
 }
