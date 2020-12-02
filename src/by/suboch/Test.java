@@ -1,4 +1,4 @@
-package suboch;
+package by.suboch;
 
 import suboch.furniture.StandingObject;
 import suboch.dishes.Cup;
@@ -22,7 +22,7 @@ public class Test {
         Info tvset = new TVset("Horizont");
         suboch.furniture.Table table = new Table();
         Skinali skinali = new Skinali();
-        Flying cup1 = new Cup();
+        FlyingObjects cup1 = new Cup();
         System.out.println("Изменение в develop");
 
         cup1.flying();

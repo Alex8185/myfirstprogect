@@ -1,4 +1,4 @@
-package suboch;
+package by.suboch;
 
 public class Mixer extends StandingFurniture {
 
