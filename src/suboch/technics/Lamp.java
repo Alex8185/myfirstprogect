@@ -1,4 +1,6 @@
-package suboch;
+package suboch.technics;
+
+import suboch.interfaces.Info;
 
 public class Lamp implements Info {
     public int watt;

@@ -1,4 +1,6 @@
-package suboch;
+package suboch.dishes;
+
+import suboch.interfaces.Flying;
 
 public class Cup extends Fly implements Flying {
 

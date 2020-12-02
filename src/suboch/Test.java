@@ -1,5 +1,16 @@
 package suboch;
 
+import suboch.furniture.StandingObject;
+import suboch.dishes.Cup;
+import suboch.furniture.Skinali;
+import suboch.furniture.Table;
+import suboch.interfaces.Flying;
+import suboch.interfaces.Info;
+import suboch.technics.Fridge;
+import suboch.technics.Lamp;
+import suboch.technics.MicrowaveOven;
+import suboch.technics.TVset;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -9,13 +20,11 @@ public class Test {
         Info fridge2 = new Fridge("Sony");
         Info lamp2 = new Lamp(200);
         Info tvset = new TVset("Horizont");
-        StandingFurniture table = new Table();
+        suboch.furniture.Table table = new Table();
         Skinali skinali = new Skinali();
         Flying cup1 = new Cup();
         System.out.println("Изменение в develop");
 
-
-        Table.standing();
         cup1.flying();
         lamp1.watt();
         fridge1.showInfo();

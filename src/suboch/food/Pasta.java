@@ -1,4 +1,4 @@
-package suboch;
+package suboch.food;
 
 public class Pasta {
 }
