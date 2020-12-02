@@ -1,8 +1,8 @@
 package by.suboch;
 
-public class Chair extends Stand {
+public class Chair extends StandingFurniture {
 
-    void standing(){
+    void stand(){
         System.out.println("Я стул, я стою");
     }
 }
