@@ -1,5 +1,5 @@
 package suboch.furniture;
 
-public abstract class  StandingObjects {
+public abstract class StandingObject {
     public abstract void standing();
 }

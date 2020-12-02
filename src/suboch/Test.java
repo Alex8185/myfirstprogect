@@ -1,6 +1,6 @@
 package suboch;
 
-import suboch.furniture.StandingObjects;
+import suboch.furniture.StandingObject;
 import suboch.dishes.Cup;
 import suboch.furniture.Skinali;
 import suboch.furniture.Table;
@@ -20,7 +20,7 @@ public class Test {
         Info fridge2 = new Fridge("Sony");
         Info lamp2 = new Lamp(200);
         Info TVset = new TVset("Horizont");
-        StandingObjects Table = new Table();
+        StandingObject Table = new Table();
         Skinali skinali = new Skinali();
         Flying cup1 = new Cup();
         System.out.println("Изменение в develop");
