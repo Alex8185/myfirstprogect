@@ -20,7 +20,9 @@ public class Lamp implements Info {
     }
 
     @Override
-    public void name() {
-        System.out.println("Я лампа, я свечу");
+    public void printName() {
+        System.out.println("Лампа");
+
     }
+
 }

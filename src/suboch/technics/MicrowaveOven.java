@@ -15,9 +15,9 @@ public class MicrowaveOven implements Info {
 
     }
 
-    public void name() {
-        System.out.println("Я микроволновка, я излучаю СВЧ");
-    }
+    @Override
+    public void printName() {
 
+    }
 
 }

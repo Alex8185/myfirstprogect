@@ -2,8 +2,8 @@ package suboch.furniture;
 
 public class Table extends StandingObject {
 
-    @Override
-    public void standing() {
+
+    public static void standing() {
         System.out.println("Я стол, я стою");
 
     }

@@ -1,4 +1,4 @@
-package by.suboch;
+package suboch.interfaces;
 
 public interface FlyingObjects {
 
