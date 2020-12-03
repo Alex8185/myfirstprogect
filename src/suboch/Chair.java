@@ -1,5 +1,7 @@
 package suboch;
 
+import by.suboch.Stand;
+
 public class Chair extends Stand {
 
     static void standing(){

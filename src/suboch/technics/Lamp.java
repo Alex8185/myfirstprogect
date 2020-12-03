@@ -1,4 +1,10 @@
-package suboch;
+<<<<<<< HEAD:src/by/suboch/Lamp.java
+package by.suboch;
+=======
+package suboch.technics;
+
+import suboch.interfaces.Info;
+>>>>>>> master:src/suboch/technics/Lamp.java
 
 public class Lamp implements Info {
     public int watt;
@@ -18,9 +24,7 @@ public class Lamp implements Info {
     }
 
     @Override
-    public void printName() {
-        System.out.println("Лампа");
-
+    public void name() {
+        System.out.println("Я лампа, я свечу");
     }
-
 }

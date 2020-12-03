@@ -1,4 +1,6 @@
-package suboch;
+package by.suboch;
+
+import suboch.interfaces.Info;
 
 public class MicrowaveOven implements Info {
     public String name;

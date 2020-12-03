@@ -1,4 +1,5 @@
-package suboch;
+package by.suboch;
 
 public class Cake {
+
 }
