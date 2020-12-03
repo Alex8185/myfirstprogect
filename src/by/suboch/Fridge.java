@@ -3,20 +3,27 @@ package by.suboch;
 import suboch.interfaces.Info;
 
 public class Fridge implements Info {
-    public String name;
+    public int watt;
 
-    public Fridge(String name) {
-        this.name = name;
+    public Fridge(int watt) {
+        this.watt = watt;
     }
 
-    public void name() {
-        System.out.println("I am fridge, i give cold");
+    public void watt() {
+        System.out.println("My power " + watt + " W");
+    }
+
+
+    @Override
+    public void showInfo() {
+        System.out.println(watt);
 
     }
 
     @Override
-    public void showInfo() {
-        System.out.println("Name is " + this.name);
+    public void printName() {
+        System.out.println("Я холодильник, во мне лежит труп");
 
     }
+
 }

@@ -1,5 +1,8 @@
 package by.suboch;
 
 public abstract class Stand {
-    abstract void standing();
+
+    static void standing() {
+        System.out.println("Мы все сожем стоять");
+    }
 }
