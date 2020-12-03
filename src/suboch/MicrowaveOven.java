@@ -14,12 +14,9 @@ public class MicrowaveOven implements Info {
     }
 
     @Override
-    public void speakTheName() {
-        System.out.println("Называю свое имя при прикосновении");
-    }
+    public void printName() {
+        System.out.println("Я микроволновка, я грею сосиски");
 
-    public void name() {
-        System.out.println("Я микроволновка, я излучаю СВЧ");
     }
 
 

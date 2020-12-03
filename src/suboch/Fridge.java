@@ -1,22 +1,27 @@
 package suboch;
 
 public class Fridge implements Info {
-    public String name;
+    public int watt;
 
-    public Fridge(String name) {
-        this.name = name;
+    public Fridge(int watt) {
+        this.watt = watt;
+    }
+
+    public void watt() {
+        System.out.println("My power " + watt + " W");
     }
 
 
     @Override
     public void showInfo() {
-        System.out.println("Name is " + this.name);
+        System.out.println(watt);
 
     }
 
     @Override
-    public void speakTheName() {
-        System.out.println("Называю свое имя при прикосновении");
+    public void printName() {
+        System.out.println("Я холодильник, во мне лежит труп");
+
     }
 
 }
