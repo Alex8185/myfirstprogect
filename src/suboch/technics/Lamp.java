@@ -1,10 +1,6 @@
-<<<<<<< HEAD:src/by/suboch/Lamp.java
-package by.suboch;
-=======
 package suboch.technics;
 
 import suboch.interfaces.Info;
->>>>>>> master:src/suboch/technics/Lamp.java
 
 public class Lamp implements Info {
     public int watt;
