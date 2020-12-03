@@ -1,4 +1,6 @@
-package by.suboch;
+package suboch.dishes;
+
+import suboch.interfaces.FlyingObjects;
 
 public abstract class FlyingDishes implements FlyingObjects {
 

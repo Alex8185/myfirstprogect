@@ -1,10 +1,10 @@
 package suboch.dishes;
 
-import suboch.interfaces.Flying;
+import suboch.dishes.FlyingDishes;
+import suboch.interfaces.FlyingObjects;
 
-public class Fork extends Fly implements Flying {
-
-    public void flying() {
+public class Fork extends FlyingDishes implements FlyingObjects {
+    public void flies() {
         System.out.println("Я вилка, я взлетела");
     }
 }
