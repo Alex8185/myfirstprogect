@@ -1,4 +1,6 @@
-package suboch;
+package by.suboch;
+
+import suboch.interfaces.Info;
 
 public class TVset implements Info {
     public String name;
@@ -10,7 +12,6 @@ public class TVset implements Info {
 
     @Override
     public void showInfo() {
-        System.out.println("I am TV set");
 
     }
 

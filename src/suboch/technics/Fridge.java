@@ -1,4 +1,10 @@
-package suboch;
+<<<<<<< HEAD:src/by/suboch/Fridge.java
+package by.suboch;
+=======
+package suboch.technics;
+
+import suboch.interfaces.Info;
+>>>>>>> master:src/suboch/technics/Fridge.java
 
 public class Fridge implements Info {
     public String name;
